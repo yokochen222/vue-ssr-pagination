@@ -1,0 +1,12 @@
+.vscode
+node_modules
+public
+src
+.gitignore
+.npmignore
+index.html
+
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+yarn.lock
