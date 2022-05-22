@@ -1,9 +1,9 @@
 import Pagination from './Pagination.vue'
 import { App } from 'vue'
 
-export const YoPagination = Pagination
+export const VueSSRPagination = Pagination
 export default {
   install(app: App) {
-    app.component('YoPagination', Pagination)
+    app.component('VueSSRPagination', Pagination)
   }
 }

@@ -1,19 +1,16 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-// import { useRouter } from 'vue-router'
-// const router = useRouter()
 const query = reactive({
     total: 100,
     page: 1,
 })
 const handleChangePage = (e: { path: string; page: number }) => {
-    // router.push(e.path)
-    console.log(e.page)
+    console.log(e)
 }
 </script>
 
 <template>
-    <YoPagination
+    <VueSSRPagination
         @current-change="handleChangePage"
         :total="100"
         :query-mode="2"

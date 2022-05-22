@@ -2,11 +2,25 @@
   "name": "vue-ssr-pagination",
   "private": false,
   "version": "1.0.0",
+  "main": "lib/vue-ssr-pagination.common.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/yokochen222/vue-ssr-pagination.git",
+    "url": "https://github.com/yokochen222/vue-ssr-pagination.git"
+  },
+  "homepage": "https://github.com/yokochen222/vue-ssr-pagination.git",
+  "keywords": [
+    "vue",
+    "vue-ssr-pagination",
+    "vue-pagination",
+    "nuxt-pagination",
+    "nuxt-ssr-pagination"
+  ],
   "dependencies": {
     "vue": "^3.2.25",
     "vue-router": "^4.0.15"
