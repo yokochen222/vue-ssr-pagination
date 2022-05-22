@@ -9,6 +9,9 @@
 ##### 动态路由模式
 [![Oxj2VS.png](https://s1.ax1x.com/2022/05/22/Oxj2VS.png)](https://s1.ax1x.com/2022/05/22/Oxj2VS.png)
 
+
+# DEMO
+<a href="https://yokochen222.github.io/vue-ssr-pagination/">https://yokochen222.github.io/vue-ssr-pagination/<a>
 # Props
 | name    | type  | default |  desc  |
 | --------   | ----- | ---- | ---- |
